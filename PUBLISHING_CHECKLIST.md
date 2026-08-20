@@ -10,6 +10,7 @@ Use this checklist for every public Quietloom Audio long-form release. The goal 
 - Add a unique `VideoObject` JSON-LD block. Keep `name`, description, thumbnail, duration, upload date, canonical page URL, and YouTube `embedUrl` truthful and consistent with the page and upload.
 - Add two or three relevant internal links from the page, and link to the new page from the home catalogue plus at least one relevant guide.
 - Add the canonical page to `sitemap.xml`. Add a matching `<video:video>` entry using the same stable thumbnail URL and embed URL.
+- If the actual video runtime is longer than 28,800 seconds (eight hours), omit the optional sitemap `<video:duration>` element. Keep the truthful ISO 8601 duration in the page's `VideoObject`; Google limits the sitemap-duration field to 30–28,800 seconds.
 
 ## YouTube and social linking
 
@@ -17,14 +18,18 @@ Use this checklist for every public Quietloom Audio long-form release. The goal 
 - Add the site URL to the YouTube channel profile links, Instagram bio link, and TikTok bio website field. The public destination should eventually be the branded domain, not a social-profile shortener.
 - Keep YouTube as the canonical place to play the long-form video. The website's job is context, discovery, and related-path navigation.
 
-## Search Console launch handoff
+## Search Console launch and release handoff
 
 These steps need an owner signed in to the Quietloom Google account:
 
-1. Open [Google Search Console](https://search.google.com/search-console/), add `https://quietloomaudio.github.io/` as a URL-prefix property, and complete verification.
-2. Submit `https://quietloomaudio.github.io/sitemap.xml` in the Sitemaps report.
-3. Use URL Inspection to request indexing for the home page, every new watch page, and every guide page. Do not repeatedly request the same unchanged URL.
-4. Monitor the Video indexing report, Video rich result report, and Performance report with the Videos appearance filter. Record useful search queries and the pages earning impressions before changing page intent or titles.
+The `https://quietloomaudio.github.io/` URL-prefix property was verified and the sitemap was submitted on 2026-08-20. Treat its initial report as asynchronous: wait for Google to fetch and process the current sitemap before diagnosing an error.
+
+For each later release:
+
+1. Deploy the page and sitemap change to the public canonical host, then confirm both URLs return `200` before using Search Console.
+2. Resubmit `https://quietloomaudio.github.io/sitemap.xml` only when it has changed.
+3. Use URL Inspection to request indexing for the newly published watch page. Request the home page only when its catalogue has materially changed; do not repeatedly request an unchanged URL.
+4. Monitor the Sitemaps, Video indexing, Video rich result, and Performance reports with the Videos appearance filter. Record useful queries and pages earning impressions before changing page intent or titles.
 
 ## Branded-domain migration
 
