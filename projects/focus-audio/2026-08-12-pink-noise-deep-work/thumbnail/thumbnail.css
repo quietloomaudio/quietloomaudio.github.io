@@ -1,0 +1,16 @@
+@import url("../../../../templates/youtube-thumbnail/base.css");
+
+.thumbnail__plate { object-position: center center; }
+
+.copy-stack {
+  width: 540px;
+}
+
+.tagline {
+  display: block;
+  width: 540px;
+  margin-top: 33px;
+  letter-spacing: 0.65em;
+}
+
+.duration .icon { width: 44px; height: 30px; }

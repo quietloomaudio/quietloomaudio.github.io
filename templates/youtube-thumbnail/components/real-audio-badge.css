@@ -1,0 +1,5 @@
+/* Reusable provenance badge for covers built from authentic field recordings.
+   Use REAL / AUDIO RECORDING when the audio is real but the visual is composited. */
+.real-badge{display:flex;align-items:center;gap:10px;height:50px;padding-right:14px;border:1px solid rgba(210,200,255,.72);border-radius:4px;background:rgba(7,7,18,.78);box-shadow:0 0 20px rgba(166,144,255,.24);overflow:hidden}
+.real-badge strong{align-self:stretch;display:flex;align-items:center;padding:0 13px;font-size:23px;letter-spacing:1.5px;color:#0b0815;background:var(--badge-accent,var(--violet,#a690ff))}
+.real-badge span{font-size:11px;font-weight:800;line-height:1.05;letter-spacing:1.45px;width:74px;color:#eeeaff}

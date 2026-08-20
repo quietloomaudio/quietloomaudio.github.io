@@ -1,0 +1,45 @@
+@import url("../../../../templates/youtube-thumbnail/base.css");
+
+:root {
+  --ink: #f5f3ef;
+  --rose: #65c9e8;
+  --rose-soft: #91d8ed;
+  --charcoal: #071018;
+  --rule: rgba(101, 201, 232, 0.82);
+}
+
+.thumbnail__plate { object-position: center center; }
+
+/* A low-opacity, extra-wide veil supports copy without creating a visible panel. */
+.thumbnail__veil {
+  background:
+    radial-gradient(ellipse 68% 112% at -8% 48%, rgba(3, 10, 17, 0.30) 0%, rgba(4, 12, 21, 0.17) 43%, rgba(5, 14, 24, 0.06) 68%, transparent 88%),
+    linear-gradient(0deg, rgba(3, 9, 15, 0.18) 0%, transparent 30%);
+}
+
+.brand-lockup__logo { width: 380px; height: 58px; }
+
+.copy-stack {
+  width: 590px;
+}
+
+.display { font-size: 125px; line-height: 0.81; letter-spacing: -0.065em; }
+.display__accent { color: #65c9e8; }
+
+.tagline {
+  display: block;
+  width: 590px;
+  margin-top: 28px;
+  padding-top: 14px;
+  font-size: 12px;
+  letter-spacing: 0.46em;
+}
+
+.duration .icon { width: 44px; height: 30px; }
+
+.feature { color: #65c9e8; }
+.feature__divider { margin: 0 24px; }
+.feature__copy { text-shadow: 0 1px 5px rgba(0,0,0,.72); }
+
+.seal__art circle { fill: rgba(4, 12, 20, 0.13); }
+.seal__art .seal-wave { stroke: #65c9e8; }

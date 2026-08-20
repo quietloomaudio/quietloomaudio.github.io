@@ -1,0 +1,49 @@
+@import url("../../../../templates/youtube-thumbnail/base.css");
+
+:root {
+  --ink: #f5f1ef;
+  --accent: #8fa9d2;
+  --accent-soft: #b9c8e0;
+  --charcoal: #0a111d;
+  --rule: rgba(143, 169, 210, 0.78);
+  --copy-stack-top: 50%;
+}
+
+.thumbnail__plate {
+  object-position: center center;
+  transform: scaleX(-1);
+}
+
+.thumbnail__veil,
+.thumbnail__grain { display: none; }
+
+.brand-lockup__logo { width: 380px; height: 58px; }
+.copy-stack { width: 570px; }
+
+.display {
+  color: var(--ink);
+  font-size: 125px;
+  line-height: 0.80;
+  letter-spacing: -0.065em;
+  text-shadow: 0 3px 18px rgba(0, 0, 0, 0.18);
+}
+
+.tagline {
+  display: block;
+  width: 570px;
+  margin-top: 27px;
+  padding-top: 14px;
+  font-size: 11.5px;
+  letter-spacing: 0.31em;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.72);
+}
+
+.duration {
+  background: rgba(6, 12, 22, 0.94);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.24);
+}
+
+.duration .icon { width: 44px; height: 30px; }
+.feature__divider { margin: 0 24px; }
+.feature__copy { text-shadow: 0 1px 6px rgba(0, 0, 0, 0.82); }
+.seal__art circle { fill: rgba(5, 12, 22, 0.20); }

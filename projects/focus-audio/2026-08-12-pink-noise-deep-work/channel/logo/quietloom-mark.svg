@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Quietloom Audio mark</title>
+  <desc id="desc">Four precise, mirrored loom strands forming a calm acoustic field.</desc>
+  <g fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 4V25C18 34 7 41 7 50s11 16 11 25v21"/>
+    <path d="M40 4V24c0 9-10 17-10 26s10 17 10 26v20"/>
+    <path d="M60 4V24c0 9 10 17 10 26S60 67 60 76v20"/>
+    <path d="M82 4V25c0 9 11 16 11 25S82 66 82 75v21"/>
+  </g>
+</svg>

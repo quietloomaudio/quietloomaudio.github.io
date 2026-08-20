@@ -1,0 +1,26 @@
+@import url("../../../../templates/youtube-thumbnail/base.css");
+
+:root {
+  --accent: #e1a05b;
+  --accent-soft: #e5bb84;
+  --rule: rgba(225, 160, 91, 0.82);
+}
+
+.thumbnail__plate { object-position: center center; }
+
+.thumbnail__veil {
+  background:
+    linear-gradient(90deg, rgba(7, 6, 6, 0.78) 0%, rgba(10, 8, 7, 0.62) 38%, rgba(10, 8, 7, 0.18) 62%, rgba(8, 7, 7, 0.08) 100%),
+    linear-gradient(0deg, rgba(7, 6, 6, 0.55) 0%, transparent 34%);
+}
+
+.copy-stack { width: 540px; }
+
+.tagline {
+  display: block;
+  width: 540px;
+  margin-top: 33px;
+  letter-spacing: 0.68em;
+}
+
+.duration .icon { width: 44px; height: 30px; }

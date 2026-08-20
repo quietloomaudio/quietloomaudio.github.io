@@ -1,0 +1,63 @@
+@import url("../../../../templates/youtube-thumbnail/base.css");
+
+:root {
+  --ink: #f5f1eb;
+  --accent: #e1a05b;
+  --accent-soft: #e5bb84;
+  --charcoal: #0b0d11;
+  --rule: rgba(225, 160, 91, 0.82);
+  --copy-stack-top: 49%;
+}
+
+.thumbnail {
+  cursor: none;
+}
+
+.thumbnail__plate {
+  object-position: center center;
+  transform: scaleX(-1);
+}
+
+.thumbnail__veil {
+  background:
+    radial-gradient(ellipse 66% 115% at -7% 48%, rgba(5, 8, 13, 0.54) 0%, rgba(5, 8, 13, 0.31) 45%, rgba(5, 8, 13, 0.08) 72%, transparent 92%),
+    linear-gradient(0deg, rgba(4, 6, 9, 0.27) 0%, transparent 31%);
+}
+
+.thumbnail__grain { opacity: 0.08; }
+.brand-lockup__logo { width: 380px; height: 58px; }
+.copy-stack { width: 590px; }
+
+.display {
+  color: var(--ink);
+  font-size: 125px;
+  line-height: 0.80;
+  letter-spacing: -0.066em;
+  text-shadow: 0 3px 20px rgba(0, 0, 0, 0.30);
+}
+
+.display__accent {
+  color: var(--accent);
+}
+
+.tagline {
+  display: block;
+  width: 590px;
+  margin-top: 26px;
+  padding-top: 14px;
+  font-size: 12px;
+  letter-spacing: 0.43em;
+  text-shadow: 0 1px 7px rgba(0, 0, 0, 0.86);
+}
+
+.duration {
+  background: rgba(8, 9, 12, 0.94);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.28);
+}
+
+.duration .icon { width: 44px; height: 30px; }
+.feature { color: var(--accent-soft); }
+.feature__divider { margin: 0 23px; }
+.feature__copy { text-shadow: 0 1px 6px rgba(0, 0, 0, 0.90); }
+.seal__art circle { fill: rgba(7, 8, 11, 0.18); }
+.seal__art .seal-wave { stroke: var(--accent); }

@@ -1,0 +1,37 @@
+/* Original 1280×720 cover documents, scaled without altering their design. */
+.cover-embed iframe {
+  display: block;
+  width: 1280px;
+  height: 720px;
+  border: 0;
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+@media (max-width: 760px) {
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .grid {
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .card,
+  .cover-embed {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .intro > .eyebrow {
+    max-width: 100%;
+    font-size: 8px;
+    line-height: 1.6;
+    letter-spacing: .16em;
+    white-space: normal;
+  }
+}

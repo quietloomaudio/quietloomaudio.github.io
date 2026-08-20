@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pablobarriga.github.io/quietloom-audio-website/sitemap.xml
+Sitemap: https://quietloomaudio.github.io/sitemap.xml

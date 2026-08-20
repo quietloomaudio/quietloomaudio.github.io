@@ -1,4 +1,12 @@
 .DS_Store
 Thumbs.db
+*-check.png
+website-local-*.png
+projects/**/qc/
+projects/**/previews/
+projects/**/mockups/
+projects/**/plates/concepts/
+.quietloom-pages-deploy-key
+.quietloom-pages-deploy-key.pub
+.gh-login-*.txt
 .vscode/
-

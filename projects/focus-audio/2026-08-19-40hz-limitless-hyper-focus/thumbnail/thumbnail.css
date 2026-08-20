@@ -1,0 +1,6 @@
+@import url("../../../../templates/youtube-thumbnail/base.css");
+:root{--accent:#EBA5A7;--accent-soft:#F1BEB9;--rule:rgba(235,165,167,.82);--copy-stack-top:50%}
+.thumbnail__plate{object-position:center center;filter:saturate(1.08) contrast(1.03)}
+.thumbnail__veil{background:linear-gradient(90deg,rgba(7,4,8,.66) 0%,rgba(8,4,8,.31) 47%,rgba(7,2,5,.06) 74%),linear-gradient(0deg,rgba(5,4,8,.56) 0%,transparent 34%)}
+.copy-stack--safe-centered{top:50%}.display{line-height:.82;letter-spacing:-.055em;text-shadow:0 4px 24px rgba(0,0,0,.72)}.tagline{position:absolute;top:calc(100% + 30px);left:50%;width:max-content;margin:0;padding:0 28px;transform:translateX(-50%);border:0;font-size:13px;letter-spacing:.42em;text-shadow:0 2px 9px rgba(0,0,0,.98)}
+.features--centered{left:50%;bottom:39px;justify-content:center;width:1030px;transform:translateX(-50%)}
