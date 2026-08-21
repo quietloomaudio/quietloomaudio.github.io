@@ -26,7 +26,7 @@
 
 .thumbnail__grain { opacity: 0.08; }
 .brand-lockup__logo { width: 380px; height: 58px; }
-.copy-stack { width: 590px; }
+.copy-stack { width: 760px; }
 
 .display {
   color: var(--ink);
@@ -43,7 +43,7 @@
 
 .tagline {
   display: block;
-  width: 590px;
+  width: 720px;
   margin-top: 26px;
   padding-top: 14px;
   font-size: 12px;
