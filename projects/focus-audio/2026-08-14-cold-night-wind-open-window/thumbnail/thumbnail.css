@@ -38,6 +38,7 @@
 
 .display__accent {
   color: var(--accent);
+  white-space: nowrap;
 }
 
 .tagline {
